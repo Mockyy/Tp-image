@@ -1,0 +1,73 @@
+object Form1: TForm1
+  Left = 426
+  Height = 571
+  Top = 215
+  Width = 574
+  Caption = 'Form1'
+  ClientHeight = 571
+  ClientWidth = 574
+  LCLVersion = '1.8.2.0'
+  object Image: TImage
+    Left = 128
+    Height = 300
+    Top = 56
+    Width = 300
+  end
+  object BNoir: TButton
+    Left = 64
+    Height = 35
+    Top = 392
+    Width = 90
+    Caption = 'Noir'
+    Color = clBlack
+    OnClick = BNoirClick
+    TabOrder = 0
+  end
+  object BRouge: TButton
+    Left = 176
+    Height = 35
+    Top = 392
+    Width = 90
+    Caption = 'Rouge'
+    OnClick = BRougeClick
+    TabOrder = 1
+  end
+  object BQuatre: TButton
+    Left = 288
+    Height = 35
+    Top = 392
+    Width = 90
+    Caption = 'Quatre'
+    OnClick = BQuatreClick
+    TabOrder = 2
+  end
+  object BAlterne: TButton
+    Left = 400
+    Height = 35
+    Top = 392
+    Width = 90
+    Caption = 'Alterne'
+    OnClick = BAlterneClick
+    TabOrder = 3
+  end
+  object BEchec: TButton
+    Left = 64
+    Height = 35
+    Top = 448
+    Width = 90
+    Caption = 'Échequier'
+    Color = clBlack
+    OnClick = BEchecClick
+    TabOrder = 4
+  end
+  object BVisage: TButton
+    Left = 176
+    Height = 35
+    Top = 448
+    Width = 90
+    Caption = 'Visage'
+    Color = clBlack
+    OnClick = BVisageClick
+    TabOrder = 5
+  end
+end
